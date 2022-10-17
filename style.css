@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  outline: 0;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("./assets/retro-living-room-interior-design.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 40px;
+  height: 10vh;
+}
+
+.nav-items {
+  display: flex;
+  list-style-type: none;
+  border-bottom: 3px solid #ffffff;
+}
+
+.nav-item {
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding: 0px 30px;
+}
+
+.contact-us > span {
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.phone-number {
+  margin-top: 10px;
+  color: #ffffff;
+  font-weight: 600;
+}
+/* HERO SECTION */
+.Hero-Section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.leftSide {
+  margin: 0px 120px;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 100px;
+}
+
+.LearnMore {
+  background: transparent;
+  border: 4px solid #ffffff;
+  padding: 10px 40px;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-top: 60px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* RIGHT SIDE */
+.Square {
+  background-color: rgba(139, 204, 248, 0.3);
+  padding: 40px;
+  width: 250px;
+  margin-right: 100px;
+  margin-top: -50px;
+}
+
+.image::before {
+  background-color: #ffffff;
+  padding: 5px 30px;
+  border-radius: 50px;
+}
+
+.Square > p {
+  color: #ffffff;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.Square2 {
+  position: absolute;
+  top: 500px;
+  left: 700px;
+}
+
+.white-line {
+  color: #ffffff;
+  position: absolute;
+  height: 80px;
+  width: 2px;
+  background-color: #ffffff;
+  top: 335px;
+  right: 200px;
+}
+
+.white-line-circle {
+  color: #ffffff;
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  top: 80px;
+  right: -6px;
+}
+
+.white-line2 {
+  color: #ffffff;
+  position: absolute;
+  height: 80px;
+  width: 2px;
+  background-color: #ffffff;
+  top: 50px;
+  right: -40px;
+  transform: rotate(90deg);
+}
+
+.white-line-circle2 {
+  color: #ffffff;
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  right: -7px;
+  top: -10px;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 576px) {
+  .nav-items {
+    display: none;
+  }
+
+  .logo > img {
+    height: 40px;
+  }
+
+  body {
+    height: 150vh !important;
+  }
+
+  .Hero-Section {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: -12px;
+  }
+
+  .leftSide {
+    margin: 0px;
+    margin-left: 20px;
+  }
+
+  .heading {
+    margin-top: -100px !important;
+    font-size: 25px !important;
+    line-height: 50px !important;
+  }
+
+  .LearnMore {
+    border: 2px solid #ffffff;
+    padding: 5px 20px;
+    color: #ffffff;
+    margin-top: 40px;
+    font-size: 20px;
+  }
+
+  .Square {
+    margin-top: 80px !important;
+    width: 200px;
+    margin-left: 20px !important;
+    padding: 25px;
+  }
+
+  .Square > p {
+    font-size: 15px;
+  }
+
+  .white-line {
+    height: 50px;
+    top: 544px !important;
+  }
+
+  .white-line-circle {
+    top: 40px;
+  }
+
+  .Square2 {
+    top: 700px !important;
+    left: 45px !important;
+  }
+
+  .white-line2 {
+    height: 50px;
+    top: 50px;
+    left: -25px;
+    transform: rotate(90deg);
+  }
+
+  .white-line-circle2 {
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    right: -7px;
+    top: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo > img {
+    height: 30px;
+  }
+
+  .nav-item {
+    font-size: 11px;
+  }
+
+  .contact-us {
+    display: none;
+  }
+  body {
+    height: 100vh;
+  }
+
+  .Hero-Section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+  }
+
+  .leftSide {
+    margin: 0px;
+    margin-left: 40px;
+  }
+
+  .heading {
+    font-size: 35px;
+    line-height: 60px;
+  }
+
+  .LearnMore {
+    border: 3px solid #ffffff;
+    padding: 5px 40px;
+    color: #ffffff;
+    margin-top: 40px;
+    font-size: 20px;
+  }
+
+  .Square {
+    margin-top: -270px;
+    width: 200px;
+    margin-left: 500px;
+    padding: 25px;
+  }
+
+  .Square > p {
+    font-size: 13px;
+  }
+
+  .white-line {
+    height: 50px;
+    top: 315px;
+  }
+
+  .white-line-circle {
+    top: 40px;
+  }
+
+  .Square2 {
+    top: 730px;
+    left: -170px;
+  }
+
+  .white-line2 {
+    height: 50px;
+    top: 50px;
+    left: -25px;
+    transform: rotate(90deg);
+  }
+
+  .white-line-circle2 {
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    right: -7px;
+    top: 40px;
+  }
+}
