@@ -34,6 +34,7 @@ header {
   text-transform: capitalize;
   font-weight: 600;
   padding: 0px 30px;
+  text-decoration: none;
 }
 
 .contact-us > span {
@@ -208,7 +209,7 @@ header {
   }
 
   .Square2 {
-    top: 700px !important;
+    top: 650px !important;
     left: 45px !important;
   }
 
