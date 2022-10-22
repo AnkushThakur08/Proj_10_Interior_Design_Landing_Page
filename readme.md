@@ -18,17 +18,17 @@
 
 ### Technology Used
 
-    - HTML
-    - CSS
+- HTML
+- CSS
 
 ### Concept Learned
 
-    - Learned About Mind Mapping
-    - Learned about how to customize font Awesome Icons
-    - Learned about Flex Box
-    - Learned about Box-Shadow and Opacity
-    - Learned how to build custom designs
-    - Learned about responsiveness
+- Learned About Mind Mapping
+- Learned about how to customize font Awesome Icons
+- Learned about Flex Box
+- Learned about Box-Shadow and Opacity
+- Learned how to build custom designs
+- Learned about responsiveness
 
 # SCREEN SHOT OF PROJECT
 
